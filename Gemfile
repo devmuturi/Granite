@@ -63,3 +63,4 @@ group :test do
 end
 
 gem "responders", "~> 3.1"
+gem 'react-rails', "~> 2.7.1"
