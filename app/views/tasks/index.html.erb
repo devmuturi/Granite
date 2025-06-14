@@ -1,0 +1,6 @@
+<h1>List of tasks will appear here</h1>
+<ul>
+  <% @tasks.each do |task| %>
+    <li><%= task.body %></li>
+  <% end %>
+</ul>
