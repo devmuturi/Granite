@@ -1,5 +1,5 @@
 class Task < ApplicationRecord
-  MAX_TITLE_LENGTH = 125
+  MAX_TITLE_LENGTH = 50
   VALID_TITLE_REGEX = /\A.*[a-zA-Z0-9].*\z/i
 
   validates :title, presence: true,
