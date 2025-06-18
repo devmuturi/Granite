@@ -63,5 +63,5 @@ group :test do
 end
 
 gem "responders", "~> 3.1"
-gem 'react-rails', "~> 2.7.1"
+gem 'react-rails', "~> 3.2.1"
 gem "pry-byebug"
